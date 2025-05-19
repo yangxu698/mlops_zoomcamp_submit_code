@@ -10,11 +10,10 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import Ridge
-import glob, os
-from pathlib import Path
-
 from sklearn.metrics import root_mean_squared_error
 
+import glob, os
+from pathlib import Path
 cwd = os.getcwd()
 ROOT_DIR = str(Path(cwd).parent)
 #%%
